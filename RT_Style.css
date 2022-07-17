@@ -1,0 +1,65 @@
+/* Andrew Sanders
+Responsive Travel Site - Style sheet
+ 7/6/22 */
+ 
+html{
+	font-family: Georgia;
+	font-size: 15px; 
+	background-color: #82bce5;
+	font-weight: normal;
+ }
+ body{
+	 padding-left: 12px;
+	 padding-right: 12px;
+	 background-color: white;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 60%;
+	 text-align: left;
+	 
+ }
+ article {
+	 background-color: inheret;
+ }
+ header {
+	 text-align: center;
+	 font-weight: Bold;
+	 font-size: 20px;
+ }
+ aside {
+	 
+ }
+ h1 {
+	 font-weight: bold;
+ }
+ h2 {
+	 font-size: 17px;
+	 font-weight: bold;
+	 color: blue;
+ }
+ .images {
+  float: right;
+
+}
+}
+ .images2 {
+  float: left;
+
+}
+ .images3 {
+  float: right;
+
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text {
+  float: left;
+  width: 70%;
+}
+ul li {
+	margin-bottom: 5px;
+}
